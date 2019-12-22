@@ -32,6 +32,4 @@ class AddNewUser(Resource):
 
     userResult = user_schema.dump(new_user)
 
-    print(userResult)
-
     return { 'status': 'success', 'data': userResult }, 201
