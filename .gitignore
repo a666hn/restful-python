@@ -1,3 +1,6 @@
 # Text editor
 .idea
 .vscode
+
+__paycache__
+**/__paycache__
